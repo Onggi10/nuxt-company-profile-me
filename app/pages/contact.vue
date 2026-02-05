@@ -1,11 +1,11 @@
 <script setup>
 useHead({
-  title: 'Hubungi Kami | PT Contoh Perusahaan',
+  title: 'Hubungi Kami | PT Sanjaya Digital',
   meta: [
     {
       name: 'description',
       content:
-        'Hubungi PT Contoh Perusahaan untuk konsultasi dan kerja sama bisnis.',
+        'Hubungi PT Sanjaya Digital untuk konsultasi dan kerja sama bisnis.',
     },
   ],
 })

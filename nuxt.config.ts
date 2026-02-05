@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'PT Contoh Perusahaan adalah perusahaan teknologi yang menyediakan jasa website, aplikasi, dan solusi digital.',
+            'PT Sanjaya Digital adalah perusahaan teknologi yang menyediakan jasa website, aplikasi, dan solusi digital.',
         },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       ],

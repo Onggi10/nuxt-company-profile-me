@@ -1,11 +1,11 @@
 <script setup>
 useHead({
-  title: 'Tentang Kami | PT Contoh Perusahaan',
+  title: 'Tentang Kami | PT Sanjaya Digital',
   meta: [
     {
       name: 'description',
       content:
-        'Mengenal lebih dekat PT Contoh Perusahaan, visi, misi, dan nilai-nilai kami.',
+        'Mengenal lebih dekat PT Sanjaya Digital, visi, misi, dan nilai-nilai kami.',
     },
   ],
 })

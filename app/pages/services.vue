@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Layanan Kami | PT Contoh Perusahaan',
+  title: 'Layanan Kami | PT Sanjaya Digital',
   meta: [
     {
       name: 'description',

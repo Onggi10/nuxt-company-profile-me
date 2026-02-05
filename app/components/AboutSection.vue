@@ -5,7 +5,7 @@
       <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
         <h2 class="text-2xl font-semibold mb-4">Siapa Kami</h2>
         <p class="text-gray-600 leading-relaxed">
-          PT Contoh Perusahaan adalah perusahaan yang bergerak di bidang
+          PT Sanjaya Digital adalah perusahaan yang bergerak di bidang
           teknologi dan pengembangan solusi digital untuk berbagai industri.
         </p>
       </div>

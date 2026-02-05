@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Solusi Digital untuk Bisnis Modern | PT Contoh Perusahaan',
+  title: 'Solusi Digital untuk Bisnis Modern | PT Sanjaya Digital',
   meta: [
     {
       name: 'description',

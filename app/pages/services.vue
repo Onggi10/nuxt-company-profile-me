@@ -13,7 +13,7 @@ useHead({
 
 <template>
   <!-- Header -->
-  <section class="bg-gray-50 py-16">
+  <section class="bg-gray-50">
     <ServicesSection />
   </section>
 </template>

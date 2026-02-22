@@ -32,7 +32,7 @@ ${message.value}
 </script>
 
 <template>
-  <section class="py-20">
+  <section id="contact" class="py-20">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
       
       <!-- Info -->

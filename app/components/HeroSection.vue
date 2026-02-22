@@ -1,48 +1,34 @@
+<script setup>
+useSeoMeta({
+  title: 'Jasa Website & Digital Terjangkau',
+  description: 'Solusi digital untuk UMKM dan personal brand.',
+})
+
+const phoneNumber = '6289531310890'
+
+const waLink = (text) =>
+  `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`
+</script>
+
 <template>
-  <section class="bg-gradient-to-r from-blue-600 to-indigo-600">
-    <div
-      class="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
-    >
-      <!-- TEXT -->
-      <div class="text-white">
-        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-          Solusi Digital<br />
-          Untuk Bisnis Modern
-        </h1>
+  <section class="bg-gray-50 py-24 text-center">
+    <div class="max-w-4xl mx-auto px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+        Solusi Digital Terjangkau untuk Mengembangkan Bisnis Anda
+      </h1>
 
-        <p class="mt-6 text-lg text-blue-100 max-w-xl">
-          Kami membantu perusahaan berkembang melalui website,
-          aplikasi, dan sistem digital yang handal.
-        </p>
+      <p class="text-gray-600 mb-8">
+        Kami membantu UMKM, corporate, dan personal brand membangun website,
+        desain profesional, serta layanan digital lainnya.
+      </p>
 
-        <div class="mt-8 flex gap-4">
-          <NuxtLink
-            to="/contact"
-            class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold shadow hover:shadow-lg transition"
-          >
-            Hubungi Kami
-          </NuxtLink>
-
-          <NuxtLink
-            to="/services"
-            class="border border-white/70 px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition"
-          >
-            Layanan Kami
-          </NuxtLink>
-        </div>
-      </div>
-
-      <!-- IMAGE -->
-      <div class="hidden md:flex justify-center">
-        <img
-          src="https://illustrations.popsy.co/blue/web-design.svg"
-          alt="Hero Illustration"
-          class="w-full max-w-md"
-        />
-      </div>
+      <a
+        :href="waLink('Halo, saya ingin konsultasi mengenai layanan Anda.')"
+        target="_blank"
+        class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition"
+      >
+        Konsultasi Gratis
+      </a>
     </div>
-
-    <!-- divider -->
-    <div class="h-20 bg-gradient-to-b from-indigo-600 to-gray-50"></div>
   </section>
 </template>

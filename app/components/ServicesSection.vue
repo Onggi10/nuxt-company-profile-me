@@ -1,62 +1,64 @@
+<script setup>
+const phoneNumber = '6289531310890'
+
+const waLink = (text) =>
+  `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`
+</script>
+
 <template>
-  <section class="bg-gray-50 py-20">
+  <section id="services" class="bg-gray-50 py-20 text-center">
     <div class="max-w-7xl mx-auto px-6">
-      <!-- Heading -->
-      <div class="text-center mb-14">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800">
-          Layanan Kami
-        </h2>
-        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
-          Kami menyediakan berbagai layanan digital untuk membantu
-          bisnis Anda tumbuh lebih cepat.
-        </p>
-      </div>
+      <h2 class="text-3xl font-bold mb-12">Layanan Kami</h2>
 
-      <!-- Cards -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div
-          v-for="service in services"
-          :key="service.title"
-          class="bg-white p-8 rounded-2xl shadow-md hover:-translate-y-2 hover:shadow-xl transition-all"
-        >
-          <div
-            class="w-14 h-14 flex items-center justify-center bg-blue-100 text-blue-600 rounded-xl mb-6 text-2xl"
-          >
-            {{ service.icon }}
-          </div>
-
-          <h3 class="text-xl font-semibold mb-3">
-            {{ service.title }}
-          </h3>
-
-          <p class="text-gray-600 leading-relaxed">
-            {{ service.description }}
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold mb-3">Web Development</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Website profesional untuk meningkatkan kredibilitas bisnis.
           </p>
+          <a :href="waLink('Saya tertarik dengan Web Development')"
+            target="_blank"
+            class="text-green-600 font-medium">
+            Tanya Sekarang →
+          </a>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold mb-3">Website Undangan</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Undangan digital modern dan elegan.
+          </p>
+          <a :href="waLink('Saya tertarik dengan Website Undangan')"
+            target="_blank"
+            class="text-green-600 font-medium">
+            Tanya Sekarang →
+          </a>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold mb-3">Desain</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Logo dan kebutuhan branding bisnis.
+          </p>
+          <a :href="waLink('Saya tertarik dengan jasa Desain')"
+            target="_blank"
+            class="text-green-600 font-medium">
+            Tanya Sekarang →
+          </a>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow">
+          <h3 class="font-semibold mb-3">Entry Data</h3>
+          <p class="text-gray-600 text-sm mb-4">
+            Input data cepat dan akurat.
+          </p>
+          <a :href="waLink('Saya tertarik dengan jasa Entry Data')"
+            target="_blank"
+            class="text-green-600 font-medium">
+            Tanya Sekarang →
+          </a>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-const services = [
-  {
-    icon: '🌐',
-    title: 'Web Development',
-    description:
-      'Pembuatan website profesional, cepat, dan SEO-friendly sesuai kebutuhan bisnis Anda.',
-  },
-  {
-    icon: '📱',
-    title: 'Mobile App',
-    description:
-      'Pengembangan aplikasi Android & iOS dengan performa tinggi dan desain modern.',
-  },
-  {
-    icon: '🎨',
-    title: 'UI/UX Design',
-    description:
-      'Desain antarmuka yang intuitif dan menarik untuk meningkatkan pengalaman pengguna.',
-  },
-]
-</script>

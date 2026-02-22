@@ -1,4 +1,11 @@
 <script setup>
+useSeoMeta({
+  title: 'Judul Halaman',
+  description: 'Deskripsi SEO',
+  ogTitle: 'Judul untuk social media',
+  ogDescription: 'Deskripsi untuk share',
+})
+
 useHead({
   title: 'Solusi Digital untuk Bisnis Modern | PT Sanjaya Digital',
   meta: [
@@ -12,6 +19,13 @@ useHead({
 </script>
 
 <template>
-  <HeroSection />
-  <ServicesSection />
+  <div>
+    <HeroSection />
+    <WhyUsSection />
+    <ServicesSection />
+    <PricingSection />
+    <TestimonialSection />
+    <CTASection />
+    <ContactSection />
+  </div>
 </template>

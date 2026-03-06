@@ -7,7 +7,7 @@ useSeoMeta({
 })
 
 useHead({
-  title: 'Solusi Digital untuk Bisnis Modern | PT Sanjaya Digital',
+  title: 'Solusi Digital untuk Bisnis Modern | PT Digital Sanjaya',
   meta: [
     {
       name: 'description',

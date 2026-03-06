@@ -4,7 +4,7 @@
       <!-- Brand -->
       <div>
         <h3 class="text-xl font-bold text-white mb-4">
-          Sanjaya Digital
+          Digital Sanjaya
         </h3>
         <p class="text-sm leading-relaxed">
           Kami membantu bisnis berkembang melalui solusi digital
